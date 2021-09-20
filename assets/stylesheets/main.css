@@ -438,11 +438,16 @@ cursor: pointer;
     justify-content: flex-start;
     background: url('../images/separateur.png') repeat-x bottom, url("../images/fond_jaune.png");
   }
+  .subfooter {
+    padding: 0.3em;
+  }
   #mes-amis {
     justify-content: flex-start;    
   }
   #mes-amis-list {
     padding-top: 1em;
+    display: flex;
+    flex-direction: column;
   }
   figure {
     text-align: center;
